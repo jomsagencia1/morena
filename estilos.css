@@ -189,7 +189,7 @@
 .caixa_form {
   border: solid 2px #803a00;
   background-color: #EEAD7D;
-  padding: 20px;
+  padding: 230px;
 }
 
 
@@ -204,6 +204,38 @@
   margin-bottom: 15px;
   cursor: pointer;
 }
+
+
+.galeria-marquee {
+  background-color: #EEAD7D;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.marquee-track {
+  display: inline-block;
+  animation: marquee 15s linear infinite;
+}
+
+.marquee-track span {
+  font-family: 'MfDelicate' !important;
+  font-size: 70px;
+  color: #803a00;
+  margin-right: 20px;
+  letter-spacing: 3px;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+
+
 
 .gallery-item img {
   border: 1px solid #EEAD7D;
