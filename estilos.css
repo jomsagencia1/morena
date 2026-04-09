@@ -63,7 +63,6 @@
 .secao-contactos {
   position: relative;
   background-color: #974A02; 
-  padding: 90px 0;
   overflow: hidden;
 }
 
@@ -222,8 +221,5 @@
   .home { text-align: center; }
   #home .foto-home { max-width: 250px; }
   .enviar, .caixa_form { max-width: 100%; width: 90%; }
-  .curva-lateral {
-    display: none;
-  }
 }
 @media (max-width: 576px) { .gallery-masonry { column-count: 1; } }
