@@ -147,8 +147,8 @@
 
 /* ----------------- RODA sobre----------------- */
 .roda {
-  width: 400pxs;
-  max-width: 400px;
+  width: 400px;
+  height: 400px;
   aspect-ratio: 1/1;
   border-radius: 50%;
   border: 10px solid #974A02;
