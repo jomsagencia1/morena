@@ -11,14 +11,17 @@
   position: relative;
 }
 
-.curva-bottom {
-  margin-bottom: -1px;
-  background-color: #C7762C;
+curva-lateral curva-left {
+  position: absolute;
+  z-index: -2;
 }
 
-.curva-top {
-  margin-top: -5px;
+curva-lateral curva-right {
+  position: absolute;
+  z-index: -2;
 }
+
+
 
 /* ----------------- CARDS ----------------- */
 .card-servico {
@@ -103,10 +106,10 @@
   position: relative;
   margin: 20px auto 0;
   display: block;
-  z-index: 1;   
+  z-index: -2;   
 }
 
-.onda-home { position: relative; z-index: 3; margin-top: 150px; }
+.onda-home { position: relative; z-index: 3; margin-top: -60px; }
 
 .col-md-6.position-relative { min-height: 100px; }
 
