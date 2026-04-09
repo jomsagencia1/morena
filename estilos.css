@@ -114,7 +114,18 @@
   width: 100vw;       
   max-width: 100%;     
   height: auto;      
-  margin: 0;    }
+  margin: 0;}
+
+.onda-home.curva-bottom {
+   margin-top: 50px; 
+  z-index: 2; 
+  display: block;
+  width: 100vw;       
+  max-width: 100%;     
+  height: auto;      
+  margin: 0;
+}
+
 
 .col-md-6.position-relative { min-height: 100px; }
 
@@ -175,6 +186,7 @@
 .caixa_form {
   border: solid 2px #803a00;
   background-color: #EEAD7D;
+  padding: 20px;
 }
 
 
