@@ -258,3 +258,11 @@
   color: #974A02 ;
    transform: scale(1.1); /* aumenta 10% */
 }
+
+.caixa_form{
+  padding: 15px;
+  border: solid 2px #803a00;
+  background-color: #EEAD7D;
+  border-radius: 20px;
+  width: 500px;
+}
