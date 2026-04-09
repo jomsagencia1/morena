@@ -1,4 +1,4 @@
-
+/* ----------------- FONTES ----------------- */
 @font-face {
   font-family: 'MfDelicate';
   src: url('./fonts/MfDelicateLittleFlower.ttf') format('truetype');
@@ -44,14 +44,9 @@
   padding: 30px 0;
 }
 
-/* ----------------- SECÇOES ----------------- */
-.secao-sobre { 
-  background-color: #EEAD7D; 
-}
-.secao-servicos 
-{ 
-  background-color: #C7762C; 
-}
+/* ----------------- SECTIONS ----------------- */
+.secao-sobre { background-color: #EEAD7D; }
+.secao-servicos { background-color: #C7762C; }
 .secao-galeria {
   background-color: #B35904;
   display: flex;
@@ -125,7 +120,7 @@
 
 .titulo-arqueado span { display: inline-block; }
 
-/* ----------------- RODA sobre----------------- */
+/* ----------------- RODA ----------------- */
 .roda {
   width: 100%;
   max-width: 300px;
@@ -171,7 +166,7 @@
   background-color: #EEAD7D;
 }
 
-
+/* ----------------- GALLERY ----------------- */
 .gallery-masonry {
   column-count: 4;
   column-gap: 15px;
@@ -192,7 +187,7 @@
   transition: .3s ease;
 }
 
-
+/* ----------------- MEDIA QUERIES ----------------- */
 @media (max-width: 992px) { .gallery-masonry { column-count: 3; } }
 @media (max-width: 768px) {
   h1 { font-size: 28px !important; }
