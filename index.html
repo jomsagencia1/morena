@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt">
 <head>
@@ -6,154 +7,291 @@
   <title>Morena - Nail & Lash Designer</title>
   <link rel="icon" type="image/jpeg" href="imgs/logotipo.jpg">
 
-  <!-- Font Awesome e Bootstrap -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Estilos próprios -->
   <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
 
-  <!-- NAVBAR -->
+
   <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
     <a class="navbar-brand mx-auto" href="index.html">
-      <img src="imgs/logotipo.jpg" alt="Morena logo" class="logo">
+      <img src="imgs/logotipo.jpg"  alt="Morena logo" class="logo">
     </a>
 
     <div class="container d-flex flex-column align-items-center">
       <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
         <ul class="navbar-nav text-center">
-          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#home">TESTE</a></li>
           <li class="nav-item"><a class="nav-link" href="#sobre">Sobre mim</a></li>
           <li class="nav-item"><a class="nav-link" href="#servicos">Serviços</a></li>
           <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
           <li class="nav-item"><a class="nav-link" href="#contactos">Contactos</a></li>
         </ul>
       </div>
+
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
     </div>
+    
   </nav>
 
-  <!-- HOME -->
-  <section id="home" class="home py-5">
-    <div class="container mt-5">
-      <div class="row align-items-center">
-        <div class="col-md-6 text-center text-md-start mb-4 mb-md-0">
-          <h1 class="fw-bold titulo-home">Detalhes que fazem toda a diferença.</h1>
-          <a href="#sobre" class="saiba_mais btn mt-3 p-3">Saiba mais!</a>
-        </div>
-        <div class="col-md-6 text-center">
-          <img src="imgs/eu.PNG" class="foto-home" alt="Foto">
-        </div>
-      </div>
-    </div>
-    <img src="imgs/onda1.png" class="curva onda-home curva-top">
-  </section>
+  <section id="home" class="home">
+    
+  <div class="container" style="margin-top: 100px;">
 
-  <!-- SOBRE MIM -->
-  <section id="sobre" class="secao-sobre py-5">
+    <div class="row align-items-center">
+
+      <!-- COLUNA ESQUERDA -->
+      <div class="col-sm-6 text-center text-md-start" style="margin-top: 120px;">
+        <h1 class="fw-bold" style="font-family: 'MfDelicate';font-size: 55px; color:#803a00;">Detalhes que fazem toda a diferença.</h1>
+        <a href="#sobre" class="saiba_mais btn mt-3 p-3" 
+           style="color: #ffffff; background:#803a00; border-radius:40PX;">Saiba mais!</a>
+      </div>
+
+      <!-- COLUNA DIREITA (IMAGEM) -->
+      <div class="col-sm-6 position-relative">
+        <img src="imgs/eu.PNG" class="foto-home" alt="Foto">
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- ONDA QUE FICA POR CIMA DA FOTO -->
+<img src="imgs/onda1.png" class="curva onda-home curva-top">
+
+  <section id="sobre" class="secao-sobre" style="background: #EEAD7D;">
     <div class="container">
-      <div class="row align-items-center">
-        <div class="col-md-6 text-center mb-4 mb-md-0">
+      <div class="row align-items-center ">
+
+        <div class="col-sm-6 text-center">
           <div class="roda">
-            <img src="imgs/sobre_mim.jpeg" alt="Sobre mim">
+            <img src="imgs/sobre_mim.jpeg" class="roda" alt="" srcset="">
           </div>
+
         </div>
-        <div class="col-md-6">
-          <h2 class="titulo-arqueado">Sobre Mim</h2>
-          <p class="texto-sobre">Olá, sou a Julliany, brasileira a viver em Portugal. Sou iniciante em Nail Design e Lash Design, apaixonada pelo mundo da beleza e por tudo o que envolve cuidado, detalhe e autoestima.</p>
-          <p class="texto-sobre">Atualmente, sou também aluna de Multimédia, área que me permite desenvolver a minha criatividade e aplicar conceitos visuais ao meu trabalho, ajudando-me a criar uma identidade única e moderna. Estou em constante aprendizagem, sempre à procura de melhorar as minhas técnicas e oferecer um serviço cada vez mais profissional.</p>
-          <p class="texto-sobre">Acredito que a beleza vai além da estética: é confiança, expressão pessoal e bem-estar. Cada atendimento é realizado com dedicação, responsabilidade e carinho, respeitando sempre a higiene e o conforto de cada cliente.</p>
+
+        <div class="col-sm-6">
+          <h1 class="titulo-arqueado">
+          <span>S</span>
+          <span>o</span>
+          <span>b</span>
+          <span>r</span>
+          <span>e</span>
+          <span>M</span>
+          <span>i</span>
+          <span>m</span>
+          </h1>
+
+          <p  class="fw-bold" style="font-family: 'MfDelicate'; letter-spacing: 1.5px; text-align: center; color: #803a00;">Olá, sou a Julliany, brasileira a viver em Portugal. Sou iniciante em Nail Design e Lash Design, apaixonada pelo mundo da beleza e por tudo o que envolve cuidado, detalhe e autoestima.
+           <p  class="fw-bold" style="font-family: 'MfDelicate'; letter-spacing: 1.5px;  text-align: center; color: #803a00;"> Atualmente, sou também aluna de Multimédia, área que me permite desenvolver a minha criatividade e aplicar conceitos visuais ao meu trabalho, ajudando-me a criar uma identidade única e moderna. Estou em constante aprendizagem, sempre à procura de melhorar as minhas técnicas e oferecer um serviço cada vez mais profissional.</p>
+          <p class="fw-bold" style="font-family: 'MfDelicate'; letter-spacing: 1.5px;  text-align: center; color: #803a00;"> Acredito que a beleza vai além da estética: é confiança, expressão pessoal e bem-estar. Cada atendimento é realizado com dedicação, responsabilidade e carinho, respeitando sempre a higiene e o conforto de cada cliente.</p></p> 
         </div>
+
       </div>
     </div>
-    <img src="imgs/onda2.png" class="curva curva-bottom">
-  </section>
+  <img src="imgs/onda2.png" class="curva curva-bottom">
+</section> 
+  
 
-  <!-- SERVIÇOS -->
-  <section id="servicos" class="secao-servicos py-5">
-    <div class="container">
-      <h2 class="text-center mb-5">Serviços</h2>
-      <div class="row justify-content-center g-4">
-        <div class="col-md-6 col-lg-4">
+  <section id="servicos" class="secao-servicos">
+    <div class="container p-3">
+      <div class="row text-center">
+                <h1 class="fw-bold" style="font-family: 'MfDelicate';font-size: 60px; color:#ffffff;">Serviços</h1>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-sm-6 d-flex justify-content-center mb-4">
           <div class="card card-servico">
-            <img src="imgs/servico1.jpg" class="card-img-top" alt="Extensão de Pestanas">
+            <img src="imgs/servico1.jpg" class="card-img-top p-2" style="border-radius: 20px;"  alt="">
             <div class="card-body">
-              <h3 class="text-center">Extensão de Pestanas</h3>
-              <p class="text-center">Realce do olhar com pestanas fio a fio ou volume, proporcionando um efeito natural ou glamouroso, conforme o seu estilo.</p>
+              <h2 class="text-center fw-bold" style="font-family: 'MfDelicate';">Extensão de Pestanas</h2>
+              <p class="text-center" style="font-size: 12px;">Realce do olhar com pestanas fio a fio ou volume, proporcionando um efeito natural ou glamouroso, conforme o seu estilo.</p>
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4">
+
+        <div class="col-sm-6 d-flex justify-content-center  mb-4">
           <div class="card card-servico">
-            <img src="imgs/servico2.jpg" class="card-img-top" alt="Extensão de Unhas">
+            <img src="imgs/servico2.jpg" class="card-img-top p-2" style="border-radius: 20px;" alt="">
             <div class="card-body">
-              <h3 class="text-center">Extensão de Unhas</h3>
-              <p class="text-center">Unhas elegantes e resistentes, com acabamento personalizado, ideais para um visual cuidado e duradouro.</p>
+              <h2 class="text-center fw-bold" style="font-family: 'MfDelicate';">Extensão de Unhas</h2>
+              <p class="text-center" style="font-size: 12px;"> Unhas elegantes e resistentes, com acabamento personalizado, ideais para um visual cuidado e duradouro.</p>
             </div>
           </div>
         </div>
+
       </div>
     </div>
   </section>
+  
+  <section id="galeria" class="secao-galeria">
+    <div class="row text-center"><h1 class="fw-bold mt-3" style="font-family: 'MfDelicate';font-size: 55px; color:#ffffff;">Galeria</h1>
 
-  <!-- GALERIA -->
-  <section id="galeria" class="secao-galeria py-5">
-    <div class="container">
-      <h2 class="text-center mb-4">Galeria</h2>
-      <div class="gallery-masonry">
-        <div class="gallery-item"><img src="imgs/cinthia.jpeg" alt=""></div>
-        <div class="gallery-item"><img src="imgs/unha1.jpeg" alt=""></div>
-        <div class="gallery-item"><img src="imgs/lara.jpeg" alt=""></div>
-        <div class="gallery-item"><img src="imgs/unha3 (1).jpeg" alt=""></div>
-        <div class="gallery-item"><img src="imgs/eri.jpeg" alt=""></div>
-        <div class="gallery-item"><img src="imgs/unha2.jpeg" alt=""></div>
-        <div class="gallery-item"><img src="imgs/iris.jpeg" alt=""></div>
-        <div class="gallery-item"><img src="imgs/unha4.jpeg" alt=""></div>
-        <div class="gallery-item"><img src="imgs/unha5.JPG" alt=""></div>
-        <div class="gallery-item"><img src="imgs/mariaclara.jpeg" alt=""></div>
-        <div class="gallery-item"><img src="imgs/unha6.jpeg" alt=""></div>
-        <div class="gallery-item"><img src="imgs/beatriz.jpg" alt=""></div>
-      </div>
-    </div>
-  </section>
+        <div class="container my-4">
+          <div class="gallery-masonry">
 
-  <!-- CONTACTOS -->
-  <section id="contactos" class="secao-contactos py-5">
-    <div class="container text-center">
-      <p>Agenda a tua sessão de forma rápida e discreta:</p>
-      <form action="https://formsubmit.co/morenabeauty07@gmail.com" method="POST" class="mx-auto" style="max-width:500px;">
-        <div class="row g-3">
-          <div class="col-md-6">
-            <input type="text" name="nome" class="form-control" placeholder="Nome">
+              <div class="gallery-item">
+              <img src="imgs/cinthia.jpeg" alt="">
+              </div>
+
+              <div class="gallery-item">
+              <img src="imgs/unha1.jpeg" alt="">
+              </div>
+
+              <div class="gallery-item">
+              <img src="imgs/lara.jpeg" alt="">
+              </div> 
+              
+              <div class="gallery-item">
+              <img src="imgs/unha3 (1).jpeg" alt="">
+              </div>
+
+              <div class="gallery-item">
+              <img src="imgs/eri.jpeg" alt="">
+              </div>
+
+              <div class="gallery-item">
+              <img src="imgs/unha2.jpeg" alt="">
+              </div>
+
+              
+              <div class="gallery-item">
+              <img src="imgs/iris.jpeg" alt="">
+              </div>
+
+              <div class="gallery-item">
+              <img src="imgs/unha4.jpeg" alt="">
+              </div>
+
+               <div class="gallery-item">
+              <img src="imgs/unha5.JPG" alt="">
+              </div>
+
+              <div class="gallery-item">
+              <img src="imgs/mariaclara.jpeg" alt="">
+              </div>
+
+              <div class="gallery-item">
+              <img src="imgs/unha6.jpeg" alt="">
+              </div>
+
+              <div class="gallery-item">
+              <img src="imgs/beatriz.jpg" alt="">
+              </div>
+
+              <div class="gallery-item">
+              <img src="imgs/unha7 (1).jpeg" alt="">
+              </div>
+
+              <div class="gallery-item">
+              <img src="imgs/unha8.jpeg" alt="">
+              </div>
+
           </div>
-          <div class="col-md-6">
-            <input type="text" name="apelido" class="form-control" placeholder="Apelido">
+        </div>  
+  </section>
+
+
+  <div class="row text-center"> <h1 class="p-2" style= "font-family: 'MfDelicate'; color: #ffffff; background:#DF9150;">MARCA TUA SESSÃO COM A MORENA</h1> </div>
+  
+  <section id="contactos" class="secao-contactos">
+
+  <img src="imgs/esquerda.png" class="curva-lateral curva-left">
+  <img src="imgs/direita.png" class="curva-lateral curva-right">
+
+ <div class="container conteudo-contactos text-center">
+  <p style="color: #ffffff; font-size: 20px; font-family: 'MfDelicate'; letter-spacing: 1.5px;">Agenda a tua sessão de forma rápida e discreta:</p>
+
+  <div class="col-sm-6 m-auto">
+
+    <div class="row">
+      <div class="caixa_form">
+        <form action="https://formsubmit.co/morenabeauty07@gmail.com" method="post">
+          <div class="row">
+            <div class="col-sm-6">
+              <input type="text" class="form-control mb-3" name="nome" placeholder="Nome"/>
+            </div>
+            <div class="col-sm-6">
+              <input type="text" class="form-control mb-3" name="apelido" placeholder="Apelido"/>
+            </div>
+          </div>
+
+          <input type="email" class="form-control mb-3" placeholder="Email" name="email">
+
+          <textarea class="form-control mb-3" rows="5" placeholder="Mensagem" name="mensagem"></textarea>
+          
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_next" value="http://127.0.0.1:5501/index.html">
+          <button type="submit" class="enviar"> Enviar</button>
+        
+        </form>
+      </div>
+    </div>
+</div>
+</section>
+
+ 
+  <footer class="rodape">
+   <div class="container"> 
+    <div class="row">
+      <div class="col-sm-6">
+        <nav class="navbar">
+        <div class="container-fluid">
+          <div class="d-flex flex-column" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link nav-link-custom" aria-current="page" href="#home">Home</a></li>
+              <li class="nav-item"><a class="nav-link nav-link-custom" href="#sobre">Sobre mim</a></li>
+              <li class="nav-item"><a class="nav-link nav-link-custom " href="#servicos">Serviços</a></li>
+              <li class="nav-item"><a class="nav-link nav-link-custom" href="#galeria">Portefolio</a></li>
+              <li class="nav-item"><a class="nav-link nav-link-custom" href="#contactos">Contactos</a></li>
+            </ul>
           </div>
         </div>
-        <input type="email" name="email" class="form-control my-3" placeholder="Email">
-        <textarea name="mensagem" rows="5" class="form-control mb-3" placeholder="Mensagem"></textarea>
-        <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_next" value="http://127.0.0.1:5501/index.html">
-        <button type="submit" class="btn enviar w-100">Enviar</button>
-      </form>
-    </div>
-  </section>
+      </nav>
+      </div>
 
-  <!-- FOOTER -->
-  <footer class="rodape py-4">
-    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
-      <p class="mb-2 mb-md-0">&copy; Morena Beauty</p>
-      <div class="d-flex gap-3">
-        <a href="https://www.tiktok.com/@_.morenabeauty_" target="_blank"><i class="fab fa-tiktok fa-lg"></i></a>
-        <a href="https://www.instagram.com/_.morenabeauty._" target="_blank"><i class="fab fa-instagram fa-lg"></i></a>
-        <a href="https://api.whatsapp.com/send/?phone=932042934" target="_blank"><i class="fas fa-phone fa-lg"></i></a>
-        <a href="mailto:morenabeauty07@gmail.com"><i class="fas fa-envelope fa-lg"></i></a>
+  <div class="col-sm-6 d-flex justify-content-end">
+  <nav class="navbar">
+    <div class="container-fluid p-0">
+      <div id="navbarNav">
+        <ul class="navbar-nav d-flex flex-column align-items-end">
+
+          <li class="nav-item mb-4">
+            <a href="https://www.tiktok.com/@_.morenabeauty_" target="_blank">
+              <i class="fa-brands fa-tiktok fa-xl" style="color: #803a00;"></i>
+            </a>
+          </li>
+
+          <li class="nav-item mb-4">
+            <a href="https://www.instagram.com/_.morenabeauty._" target="_blank">
+              <i class="fa-brands fa-instagram fa-xl" style="color: #803a00;"></i>
+            </a>
+          </li>
+
+          <li class="nav-item mb-4">
+            <a href="https://api.whatsapp.com/send/?phone=932042934" target="_blank">
+              <i class="fa-solid fa-phone fa-xl" style="color: #803a00;"></i>
+            </a>
+          </li>
+
+          <li class="nav-item mb-4">
+            <a href="mailto:morenabeauty07@gmail.com">
+              <i class="fa-solid fa-envelope fa-xl" style="color: #803a00;"></i>
+            </a>
+          </li>
+
+        </ul>
       </div>
     </div>
+  </nav>
+  </div>
+
+    </div>
+  </div>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
