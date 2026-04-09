@@ -4,22 +4,25 @@
   src: url('./fonts/MfDelicateLittleFlower.ttf') format('truetype');
 }
 
-/* ----------------- CURVAS LATERAIS ----------------- */
+/* Curvas laterais */
 .curva-lateral {
-  position: absolute;
-  top: 0;
-  width: auto;
-  height: 100%;
+  position: absolute !important;
+  top: 0 !important;
+  width: auto !important;
+  height: 100% !important;
+  z-index: -1 !important;
 }
 
-.curva-left {
-  left: 0;
-}
+/* Lado esquerdo / direito */
+.curva-left { left: 0 !important; }
+.curva-right { right: 0 !important; }
 
-.curva-right {
-  right: 0;
+/* ESCONDER EM MOBILE */
+@media (max-width: 768px) {
+  .curva-lateral {
+    display: none !important;  /* O !important aqui garante que sobrepõe qualquer regra anterior */
+  }
 }
-
 
 /* ----------------- CARDS ----------------- */
 .card-servico {
