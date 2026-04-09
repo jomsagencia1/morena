@@ -10,7 +10,6 @@
   top: 0;
   width: auto;
   height: 100%;
-  z-index: -2;
 }
 
 .curva-left {
@@ -221,5 +220,6 @@
   .home { text-align: center; }
   #home .foto-home { max-width: 250px; }
   .enviar, .caixa_form { max-width: 100%; width: 90%; }
+  .curva-lateral { display: none; }
 }
 @media (max-width: 576px) { .gallery-masonry { column-count: 1; } }
