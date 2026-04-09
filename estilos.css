@@ -80,8 +80,6 @@
 .navbar-nav .nav-link:hover { color: #4d1f00 !important; }
 
 .nav-item {
-  border-top: 2px solid rgb(122, 58, 0);
-  border-bottom: 2px solid rgb(122, 58, 0);
   margin: 2px;
   padding: 2px;
 }
