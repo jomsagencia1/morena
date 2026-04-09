@@ -4,23 +4,22 @@
   src: url('./fonts/MfDelicateLittleFlower.ttf') format('truetype');
 }
 
-/* ----------------- CURVAS ----------------- */
-.curva {
-  width: 100%;
-  display: block;
-  position: relative;
-}
-
-curva-lateral curva-left {
+/* ----------------- CURVAS LATERAIS ----------------- */
+.curva-lateral {
   position: absolute;
+  top: 0;
+  width: auto;
+  height: 100%;
   z-index: -2;
 }
 
-curva-lateral curva-right {
-  position: absolute;
-  z-index: -2;
+.curva-left {
+  left: 0;
 }
 
+.curva-right {
+  right: 0;
+}
 
 
 /* ----------------- CARDS ----------------- */
@@ -97,7 +96,7 @@ curva-lateral curva-right {
   color: #7a3a00;
   font-weight: 600;
   font-size: 2.5rem;
-  text-align: center;
+  text-align: start;
 }
 
 #home .foto-home {
@@ -202,7 +201,9 @@ curva-lateral curva-right {
   .nav-item { margin: 5px 0; }
   .home { text-align: center; }
   #home .foto-home { max-width: 250px; }
-  .roda { max-width: 250px; }
   .enviar, .caixa_form { max-width: 100%; width: 90%; }
+  .curva-lateral {
+    display: none;
+  }
 }
 @media (max-width: 576px) { .gallery-masonry { column-count: 1; } }
