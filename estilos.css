@@ -1,0 +1,260 @@
+@font-face {
+  font-family: 'MfDelicate';
+  src: url('./fonts/MfDelicateLittleFlower.ttf') format('truetype');
+}
+ 
+
+.curva {
+  width: 100%;
+  display: block;
+  position: relative;
+}
+
+.curva-bottom {
+  margin-bottom: -1px;
+  background-color: #C7762C;
+}
+
+/* Cards */
+.card-servico {
+  width: 18rem;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+
+.footer-links {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer-links li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.secao-sobre {
+  background-color: #EEAD7D;
+}
+
+.secao-servicos {
+  background-color: #C7762C;
+}
+
+.secao-galeria {
+  background-color: #B35904;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.secao-contactos {
+  background-color: #974A02;
+}
+
+.rodape {
+  background-color: #edad7d !important;
+  padding: 30px 0;
+}
+
+.curva {
+  width: 100%;
+  display: block;
+}
+
+.curva-top {
+  margin-top: -5px;
+  
+}
+
+
+.custom-navbar {
+  background-color: #edad7d;
+  padding: 10px 0;
+}
+
+.navbar-nav .nav-link {
+  color: #7a3a00 !important;
+  font-weight: bold;
+  margin: 0 15px;
+  transition: 0.3s;
+  font-family: 'MfDelicate'; 
+  letter-spacing: 1.5px;
+  
+}
+
+.navbar-nav .nav-link:hover {
+  color: #4d1f00 !important;
+}
+
+.logo {
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+
+.home h1 {
+  color: #7a3a00;
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+#home .foto-home {
+  width: 410px;
+  position: absolute;
+  right: 0;
+  bottom: -390px;     
+  z-index: 1;         
+}
+
+
+.onda-home {
+  position: relative;
+  z-index: 3;          
+   margin-top: 150px;  
+}
+
+
+.col-md-6.position-relative {
+  min-height: 100px;  
+}
+
+
+.nav-item{
+    border-top: 2px;
+    border-bottom: 2px;
+    border-color: rgb(122, 58, 0);
+    margin: 2px;
+    padding: 2px;
+}
+.nav-item:hover{
+    background-color: #7a3a00;
+    padding: 2px;
+    margin: 2px;
+
+}
+
+.i{
+  color: #803a00;
+}
+
+.secao-contactos {
+  position: relative;
+  background: #974A02; 
+  padding: 90px 0;
+  overflow: hidden;
+}
+
+.titulo-arqueado {
+  display: flex;
+  justify-content: center;
+  font-size: 55px;
+  font-weight: 400;
+  letter-spacing: 20px;
+  color: #9b5525; 
+  margin: 40px 0;
+}
+
+.titulo-arqueado span {
+  display: inline-block;
+}
+
+/* Rotação para formar o arco (ajustada com base na imagem) */
+.titulo-arqueado span:nth-child(1) { transform: translateY(6px) rotate(-20deg); }
+.titulo-arqueado span:nth-child(2) { transform: translateY(4px) rotate(-16deg); }
+.titulo-arqueado span:nth-child(3) { transform: translateY(2px) rotate(-6deg); }
+.titulo-arqueado span:nth-child(4) { transform: translateY(0px) rotate(0deg); }
+.titulo-arqueado span:nth-child(5) { transform: translateY(2px) rotate(6deg); }
+.titulo-arqueado span:nth-child(6) { transform: translateY(4px) rotate(12deg); }
+.titulo-arqueado span:nth-child(7) { transform: translateY(6px) rotate(16deg); }
+.titulo-arqueado span:nth-child(8) { transform: translateY(8px) rotate(20deg); }
+
+
+.curva-lateral {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: auto;
+  z-index: 5;
+}
+
+.curva-left {
+  left: 0;
+}
+
+.curva-right {
+  right: 0;
+}
+
+.conteudo-contactos {
+  position: relative;
+  z-index: 10;
+}
+
+.roda {
+  width: 500px;
+  height: 500px;     
+  border-radius: 50%;
+  border: 10px solid #974A02;
+  overflow: hidden;         
+  margin: 0 auto;
+}
+
+.roda img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;       
+}
+
+ .gallery-masonry {
+    column-count: 4;
+    column-gap: 15px;
+  }
+
+  @media (max-width: 992px) { .gallery-masonry { column-count: 3; } }
+  @media (max-width: 768px) { .gallery-masonry { column-count: 2; } }
+  @media (max-width: 576px) { .gallery-masonry { column-count: 1; } }
+
+  /* Item */
+  .gallery-item {
+    position: relative;
+    break-inside: avoid;
+    margin-bottom: 15px;
+    cursor: pointer;
+  }
+
+  .gallery-item img {
+    border: 1px solid #EEAD7D;
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+    transition: .3s ease;
+  }
+
+  .gallery-item::after{
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.55);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    border-radius: 30px;
+    transition: .3s ease;
+  }
+
+.enviar{
+  padding: 15px;
+  border: solid 2px #EEAD7D;
+  background: #974A02;
+  border-radius: 20px;
+  width: 500px;
+  color: #EEAD7D;
+  transition: transform 0.3s ease;
+}
+
+.enviar:hover{
+  background: #EEAD7D;
+  color: #974A02 ;
+   transform: scale(1.1); /* aumenta 10% */
+}
